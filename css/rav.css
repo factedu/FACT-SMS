@@ -1,0 +1,93 @@
+.notice{
+border: 1px solid black;
+margin: 0;
+padding: 0;
+color: #fff;
+font-family: arial,sans-serif;
+}
+
+.notice h2, .notice p{
+    font-size: 100%;
+    font-weight: normal;
+}
+
+.notice ul, .notice li{
+    list-style: none;
+}
+.notice ul{
+    overflow: hidden;
+    padding: 3em;
+}
+
+.notice ul li a{
+    text-decoration: none;
+    color: #fff;
+    background: #563D7C;
+    display: block;
+    height: 20em;
+    width: 20em;
+    padding: 1em;
+    border: 4px solid darkviolet;
+    transition: all 1s;
+    
+}
+
+
+.notice li{
+    margin: 1em;
+    float: left;
+}
+
+.notice ul li h2{
+    font-size: 140%;
+    font-weight: bold;
+    padding-bottom: 10px;
+    
+}   
+
+.notice ul li p{
+    font-family: "Reenie Beanie",arial, sans-serif;
+}        
+
+ .notice ul li a{  
+      -webkit-transform:rotate(-6deg);  
+      -o-transform:rotate(-6deg);  
+      -moz-transform:rotate(-6deg);  
+}  
+.notice ul li:nth-child(even) a{  
+      -o-transform:rotate(4deg);  
+      -webkit-transform:rotate(4deg);  
+      -moz-transform:rotate(4deg);  
+      position:relative;  
+      top:5px;  
+}  
+.notice ul li:nth-child(3n) a{  
+      -o-transform:rotate(-3deg);  
+      -webkit-transform:rotate(-3deg);  
+      -moz-transform:rotate(-3deg);  
+      position:relative;  
+      top:-5px;  
+}  
+.notice ul li:nth-child(5n) a{  
+      -o-transform:rotate(5deg);  
+      -webkit-transform:rotate(5deg);  
+      -moz-transform:rotate(5deg);  
+      position:relative;  
+      top:-10px;  
+}
+.notice ul li a:hover,ul li a:focus, .rav-popup ul li a:hover,ul li a:focus{  
+      -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);  
+      -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);  
+      box-shadow:10px 10px 7px rgba(0,0,0,.7);  
+      -webkit-transform: scale(1.25);  
+      -moz-transform: scale(1.25);  
+      -o-transform: scale(1.25);  
+      position:relative;  
+      z-index:5;  
+}  
+
+  
+
+
+
+
